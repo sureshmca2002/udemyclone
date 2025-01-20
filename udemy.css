@@ -150,7 +150,7 @@ body{
     flex-basis: 30%;
 }
 .popular__courses{
-    width: 400px;
+    flex-basis: 20%;
 }
 .popular__courses img{
     width: 100%;
@@ -211,6 +211,9 @@ body{
         display:none;
     }
     .courses{
+        flex-basis: 40%;
+    }
+    .popular__courses{
         flex-basis: 40%;
     }
     .offers{
